@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/curriculum/static/js/main.d8a81255.chunk.js",
+    "main.js.map": "/curriculum/static/js/main.d8a81255.chunk.js.map",
+    "runtime-main.js": "/curriculum/static/js/runtime-main.b876413a.js",
+    "runtime-main.js.map": "/curriculum/static/js/runtime-main.b876413a.js.map",
+    "static/js/2.898a4220.chunk.js": "/curriculum/static/js/2.898a4220.chunk.js",
+    "static/js/2.898a4220.chunk.js.map": "/curriculum/static/js/2.898a4220.chunk.js.map",
+    "static/js/3.6803c006.chunk.js": "/curriculum/static/js/3.6803c006.chunk.js",
+    "static/js/3.6803c006.chunk.js.map": "/curriculum/static/js/3.6803c006.chunk.js.map",
+    "index.html": "/curriculum/index.html",
+    "static/js/2.898a4220.chunk.js.LICENSE.txt": "/curriculum/static/js/2.898a4220.chunk.js.LICENSE.txt",
+    "static/media/WIN_20201113_08_43_03_Pro.b04d4d2f.jpg": "/curriculum/static/media/WIN_20201113_08_43_03_Pro.b04d4d2f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b876413a.js",
+    "static/js/2.898a4220.chunk.js",
+    "static/js/main.d8a81255.chunk.js"
+  ]
+}
