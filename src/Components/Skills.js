@@ -1,6 +1,6 @@
 import React from 'react'
 import styled,{keyframes} from 'styled-components';
-
+import H2Styled from '../Style/H2Styled';
 const StyleSkill = styled.div`
 display: grid;
 grid-template-columns: repeat(3,1fr);
@@ -55,6 +55,8 @@ background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transpar
 
 const Skills = ({data}) => (
     <div className="Skills">
+     
+      <H2Styled name="Skills"/>
       <StyleSkill>
        {data.map((skill,index) => (
          <div className="Skills-item" key={`data-${index}`}>
