@@ -10,11 +10,9 @@ const Education = ({datos} ) => (
       <div className="Education-container">
         <div className="Education-item">
           <H3Styled>
-          <p>UNAM</p>
+          <p>UNAN Leon Sede Somoto</p>
           </H3Styled>
-
-          <p>aprendi muchas cosas</p>
-          <PStyled name={datos.address}/>
+          <PStyled name="2014-2019"/>
         <PStyled>{}</PStyled>
         
         </div>

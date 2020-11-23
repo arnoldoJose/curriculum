@@ -13,28 +13,28 @@ padding: 2em 0 0 0;
 `;
 
 const AboutImg = styled.img`
-border-radius: 100%;
-width: 160px;
-height: 160px;
-border: 1px solid #E91E63;
-margin:auto;
-display: block;
-box-shadow: 0 0 10px rgba(0,0,0,.6);
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #321ee9;
+  margin: auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 `;
 
 const AboutH2 = styled.h2`
-font-family: 'Roboto' sans-serif;
-font-weight: 400;
-letter-spacing: 1.2px;
-margin: .5em 0 0 0;
-color: #C2185B;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin: 0.5em 0 0 0;
+  color: #321ee9;
 `;
 
 const AboutProfecion = styled.p`
-margin: .2em 0 1em 0;
-letter-spacing: 1.6px;
-font-weight: 300;
-color: #C2185B;
+  margin: 0.2em 0 1em 0;
+  letter-spacing: 1.6px;
+  font-weight: 300;
+  color: #321ee9;
 `;
 
 const AboutLocation = styled.p`
