@@ -53,7 +53,7 @@ const About = ({datos}) => (
           </figure>
         </AboutAvatar>
         <div className="About-name">
-          <AboutH2>Arnoldo Jose</AboutH2>
+          <AboutH2>Arnoldo Olivas</AboutH2>
         </div>
         <div className="About-profesion">
          <AboutProfecion>{datos.profession}</AboutProfecion>
