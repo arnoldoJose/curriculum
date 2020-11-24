@@ -27,14 +27,15 @@ const AboutH2 = styled.h2`
   font-weight: 400;
   letter-spacing: 1.2px;
   margin: 0.5em 0 0 0;
-  color: #321ee9;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #5542ff;
 `;
 
 const AboutProfecion = styled.p`
   margin: 0.2em 0 1em 0;
   letter-spacing: 1.6px;
   font-weight: 300;
-  color: #321ee9;
+  color: #5847f7;
 `;
 
 const AboutLocation = styled.p`

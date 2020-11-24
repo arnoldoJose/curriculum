@@ -6,8 +6,9 @@ import About from './Components/About';
 import Education from './Components/Education';
 import Experience from './Components/Experience';
 import Skills from './Components/Skills';
-import Certificates from './Components/Certificates';
+import Portafolio from './Components/Portafolio';
 import consultar from './Hooks/consulta';
+import Spinner from './Components/Spinner';
 
 import {createGlobalStyle} from 'styled-components';
 
@@ -25,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   let datos = consultar();
 
-  return datos.length === 0 ? <h1>cargando</h1> : (
+  return datos.length === 0 ? <Spinner/>: (
     <Main>
     <GlobalStyle/>
       <Sidebar>
@@ -34,10 +35,8 @@ function App() {
       <Info>
         <Education datos={datos}/>
 
-        <Experience data={datos.experience}/>
-        
-        <Certificates data={datos.certificate}/>
-        
+        <Experience/>
+        <Portafolio/>
         <Skills data={datos.skills}/>
       </Info>
     </Main>
