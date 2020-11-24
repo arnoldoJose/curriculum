@@ -17,6 +17,7 @@ padding: 0;
 const SocialLi = styled.li`
 display: inline;
 margin: 0 1em 0 0;
+font-size: 1.9em;
 `;
 
 const SocialAnchor = styled.a`

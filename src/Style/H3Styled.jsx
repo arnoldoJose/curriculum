@@ -3,9 +3,11 @@ import styled from 'styled-components';
 
 
 const StyledH3 = styled.h3`
-color: #212121;
+color: #5847f7;;
 font-weight: 400;
 margin: .5em 0;
+font-family: 'Barlow', sans-serif;
+
 `;
 
 const H3Styled = ({ children }) => <StyledH3> {children}</StyledH3>

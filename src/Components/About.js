@@ -24,11 +24,10 @@ const AboutImg = styled.img`
 
 const AboutH2 = styled.h2`
   font-family: "Roboto" sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 1.2px;
   margin: 0.5em 0 0 0;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #5542ff;
+  font-family: "Tienne", serif;
 `;
 
 const AboutProfecion = styled.p`

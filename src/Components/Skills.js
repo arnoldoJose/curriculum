@@ -9,7 +9,8 @@ grid-row-gap: 0.5em;
 `;
 
 const SkilllH5 = styled.h5`
-margin: .5em 0;
+  margin: 0.5em 0;
+  font-family: "Barlow", sans-serif;
 `;
 
 const SkillLine = styled.div`
