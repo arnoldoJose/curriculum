@@ -6,7 +6,7 @@ const Portafolio = () => {
   useEffect(() => {
   let consultarAPI = async () => {
     let data = await Axios.get(
-      `${process.env.REACT_APP_BACKEND_DELIVERY}/product/all?categoria=food`
+      `https://blooming-scrubland-19789.herokuapp.com/product/all?categoria=food`
     );
     console.log(data);
   };
