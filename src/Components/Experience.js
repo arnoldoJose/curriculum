@@ -3,16 +3,23 @@ import H2Styled from '../Style/H2Styled';
 import styled from 'styled-components';
 
   const StyledH5 = styled.h5`
-  color:#5847f7;
+  color: white;
   font-family: 'Barlow', sans-serif;
+ 
+  `;
+
+  const StyledContainer = styled.div`
+    @media (max-width: 800px) {
+      text-align: center;
+    }
   `;
 const Experience = () => (
 
 
-  <div>
+  <StyledContainer>
     <H2Styled name="Experiencia"/>
     <StyledH5>Null</StyledH5>
-  </div>
+  </StyledContainer>
 )
 
 

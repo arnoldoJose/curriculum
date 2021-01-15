@@ -2,9 +2,15 @@ import React from 'react';
 import H2Styled from '../Style/H2Styled';
 import H3Styled from '../Style/H3Styled';
 import PStyled from '../Style/PStyled';
+import styled from 'styled-components';
 
+const EducationDiv = styled.div`
+  @media (max-width: 800px) {
+    text-align: center;
+  }
+`;
 const Education = ({ datos }) => (
-  <div className="Education">
+  <EducationDiv className="Education">
     <H2Styled name="Educacion" />
     <div className="Education-container">
       <div className="Education-item">
@@ -15,7 +21,7 @@ const Education = ({ datos }) => (
         <PStyled>{}</PStyled>
       </div>
     </div>
-  </div>
+  </EducationDiv>
 );
 
 

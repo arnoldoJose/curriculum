@@ -1,22 +1,18 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import H2Styled from '../Style/H2Styled';
-import Axios from 'axios';
+import styled from 'styled-components';
+
+const StyledContent = styled.div`
+@media (max-width: 800px){
+  text-align:center;
+}
+`;
 const Portafolio = () => {
 
-  useEffect(() => {
-  let consultarAPI = async () => {
-    let data = await Axios.get(
-      `https://blooming-scrubland-19789.herokuapp.com/product/all?categoria=food`
-    );
-    console.log(data);
-  };
-  consultarAPI();
-  }, [])
-
   return (
-    <div>
+    <StyledContent>
       <H2Styled name="Portafolio"/>
-    </div>
+    </StyledContent>
   )
 }
 

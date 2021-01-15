@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 const StyledH3 = styled.h3`
-color: #5847f7;;
+color: white;
 font-weight: 400;
 margin: .5em 0;
 font-family: 'Barlow', sans-serif;

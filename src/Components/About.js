@@ -25,6 +25,7 @@ const AboutImg = styled.img`
 const AboutH2 = styled.h2`
   font-family: "Roboto" sans-serif;
   font-weight: 200;
+  color:white;
   letter-spacing: 1.2px;
   margin: 0.5em 0 0 0;
   font-family: "Tienne", serif;
@@ -34,10 +35,11 @@ const AboutProfecion = styled.p`
   margin: 0.2em 0 1em 0;
   letter-spacing: 1.6px;
   font-weight: 300;
-  color: #5847f7;
+  color: white;
 `;
 
 const AboutLocation = styled.p`
+color:white;
 margin: .2em 0 1em 0;
 letter-spacing: 1.6px;
 font-weight: 400;
