@@ -16,10 +16,10 @@ const AboutImg = styled.img`
   border-radius: 100%;
   width: 160px;
   height: 160px;
-  border: 1px solid #321ee9;
+  border: 1px solid #ffffff;
   margin: auto;
   display: block;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px #ffffff;
 `;
 
 const AboutH2 = styled.h2`
