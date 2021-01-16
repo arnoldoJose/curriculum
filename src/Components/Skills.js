@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components';
 import H2Styled from '../Style/H2Styled';
+import html from '../img/html-5.svg';
+import css from '../img/css.svg';
+import node from '../img/nodejs.svg';
+import react from '../img/reaccionar.svg';
+import js from '../img/javascript.svg';
+
 const StyleSkill = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  grid-row-gap: 0.5em;
-  flex-direction: row;
   @media (max-width: 800px) {
     display: flex;
     flex-direction: column;
@@ -22,6 +24,7 @@ const SkilllH5 = styled.h5`
 const SkillLine = styled.div`
   height: 8px;
   position: relative;
+
   border-radius: 50px;
   background: #5f626b;
 `;
@@ -57,10 +60,25 @@ const StyledSpace = styled.div`
   margin-top: 2em;
 }
 `;
+
+const ContainerIcon = styled.div`
+display: flex;
+justify-content:center;
+img{
+  margin: 0.6rem;
+}
+`;
 const Skills = ({ data }) => (
   <ContainerSkill className="Skills">
     <H2Styled name="Skills" />
     <div className="containerMove">
+    <ContainerIcon>
+    <img src={react} alt="react" width="60" height="80"/>
+        <img src={html} alt="html" width="60" height="80" />
+        <img src={css} alt="css" width="60" height="80" />
+        <img src={js} alt="js" width="60" height="80" />
+        <img src={node} alt="node" width="60" height="80" />
+    </ContainerIcon>
       <StyleSkill>
         <StyledSpace className="Skills-item" key={`data-${123}`}>
           <SkilllH5>{"React"}</SkilllH5>
@@ -74,6 +92,7 @@ const Skills = ({ data }) => (
       <StyleSkill>
         <StyledSpace className="Skills-item" key={`data-${123}`}>
           <SkilllH5>{"Html5"}</SkilllH5>
+         
           <SkillLine>
             <SkillSpan width={"30%"} />
             <p></p>
@@ -85,6 +104,7 @@ const Skills = ({ data }) => (
         <StyledSpace className="Skills-item" key={`data-${123}`}>
           <SkilllH5>{"Css3"}</SkilllH5>
           <SkillLine>
+          
             <SkillSpan width={"30%"} />
             <p></p>
           </SkillLine>
