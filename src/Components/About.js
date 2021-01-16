@@ -58,7 +58,7 @@ const About = ({datos}) => (
           <AboutH2>Arnoldo Olivas</AboutH2>
         </div>
         <div className="About-profesion">
-         <AboutProfecion>{datos.profession}</AboutProfecion>
+         <AboutProfecion>Desarrollador Web Full Stack</AboutProfecion>
         </div>
         <div className="About-desc">
          
